@@ -1,0 +1,49 @@
+.Line{
+    height:2px;
+    border-width:0;
+    width: 80%;
+    color:gray;
+    background-color:gray
+}
+/* headerclass callsed by props */
+.headerImg{
+    background-image: url("../assets/bible.jpg");
+    height: 700px;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    z-index: -1;
+}
+.headerFont{
+    text-align: right;
+}    
+/* bioclass callsed by props */
+.bioFont{
+    text-align: center;
+}
+/* musicclass callsed by props */
+.musicFont{
+    text-align: center;
+}
+/* newsclass callsed by props */
+.newsFont{
+    text-align: center;
+}
+/* tourclass callsed by props */
+.tourFont{
+    text-align: center;
+}
+/* tourclass callsed by props */
+.contactFont{
+    text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+    /* headerclass callsed by props */
+    .headerImg{
+        height: 200px;
+    }
+    .headerFont{
+        font-size: large;
+    }
+    /* bioclass callsed by props */
+
+}
