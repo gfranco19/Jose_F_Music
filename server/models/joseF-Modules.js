@@ -5,16 +5,22 @@ const Profile = new Schema({
 
         bio: { type: String, required: false },
 
-            albulmName: {
-                type: String, required: true
+Music:{
+        albulmName: {
+                type: [String], required: true
             },
             selectedFile: {
-                type: String
+                type: [String]
             },
+        },
        
         noticias:{ type: String, required: false },
 
-        tour:{ type: [String], required: false }
+        tour:{ type: [String], required: false },
+User:{
+    username:{type: String},
+    password:{type: String}
+}
     })
 // convert schema into a model //
 module.exports = mongoose.model('profile',Profile)

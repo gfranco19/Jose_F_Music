@@ -10,7 +10,7 @@ function Tours() {
         <Containers 
         class="tour"
         font='tourFont'
-        tittle='Gira'
+        tittle='Tour/Eventos'
         body=''
         />
         </div>
